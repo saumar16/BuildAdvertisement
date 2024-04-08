@@ -1,0 +1,13 @@
+.share {
+  margin-left: 2rem;
+}
+
+.share ul {
+  font-size: 2rem;
+  list-style-type: none;
+}
+
+.share ul li {
+  margin-bottom: 1rem;
+  cursor: pointer;
+}

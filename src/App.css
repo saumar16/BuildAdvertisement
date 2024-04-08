@@ -1,0 +1,43 @@
+* {
+  --primary-color: #0d1137;
+  --secondary-color: #ff725e;
+}
+
+.App {
+  background-color: #fcfcfcd8;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+}
+
+a {
+  font-family: inherit;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  color: white;
+  font-family: inherit;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+input:disabled {
+  background-color: rgb(247, 247, 247);
+  cursor: not-allowed;
+}
+
+input:disabled::placeholder {
+  color: #aaaaaa;
+}
